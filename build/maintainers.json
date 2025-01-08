@@ -589,6 +589,14 @@
     "TonyRL"
   ],
   "/bad*": [],
+  "/bahamut/creation_index/:category?/:subcategory?/:type?": [
+    "hoilc",
+    "bGZo"
+  ],
+  "/bahamut/creation/:author/:category?": [
+    "hoilc",
+    "bGZo"
+  ],
   "/baidu/search/:keyword": [
     "CaoMeiYouRen"
   ],

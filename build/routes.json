@@ -8189,6 +8189,64 @@
     "url": "bad.news",
     "lang": "zh-CN"
   },
+  "bahamut": {
+    "routes": {
+      "/creation_index/:category?/:subcategory?/:type?": {
+        "path": "/creation_index/:category?/:subcategory?/:type?",
+        "categories": [
+          "anime"
+        ],
+        "example": "/bahamut/creation_index/0/0/0",
+        "parameters": {
+          "category": "分类",
+          "subcategory": "子分类",
+          "type": "类型"
+        },
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "name": "巴哈姆特的創作大廳 - 首頁",
+        "maintainers": [
+          "hoilc",
+          "bGZo"
+        ],
+        "location": "creation-index.ts"
+      },
+      "/creation/:author/:category?": {
+        "path": "/creation/:author/:category?",
+        "categories": [
+          "anime"
+        ],
+        "example": "/bahamut/creation/a1102kevin",
+        "parameters": {
+          "author": "作者",
+          "category": "分类"
+        },
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "name": "巴哈姆特的創作大廳",
+        "maintainers": [
+          "hoilc",
+          "bGZo"
+        ],
+        "location": "creation.ts"
+      }
+    },
+    "name": "巴哈姆特",
+    "url": "home.gamer.com.tw",
+    "lang": "zh-TW"
+  },
   "baidu": {
     "routes": {
       "/search/:keyword": {
