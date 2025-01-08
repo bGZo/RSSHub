@@ -8194,7 +8194,8 @@
       "/creation_index/:category?/:subcategory?/:type?": {
         "path": "/creation_index/:category?/:subcategory?/:type?",
         "categories": [
-          "anime"
+          "anime",
+          "social-media"
         ],
         "example": "/bahamut/creation_index/0/0/0",
         "parameters": {
@@ -8210,7 +8211,16 @@
           "supportPodcast": false,
           "supportScihub": false
         },
-        "name": "巴哈姆特的創作大廳 - 首頁",
+        "radar": [
+          {
+            "source": [
+              "home.gamer.com.tw/index.php?k1=",
+              "home.gamer.com.tw/index.php?k2=",
+              "home.gamer.com.tw/index.php?vt="
+            ]
+          }
+        ],
+        "name": "創作大廳 - 首頁",
         "maintainers": [
           "hoilc",
           "bGZo"
@@ -8220,7 +8230,8 @@
       "/creation/:author/:category?": {
         "path": "/creation/:author/:category?",
         "categories": [
-          "anime"
+          "anime",
+          "social-media"
         ],
         "example": "/bahamut/creation/a1102kevin",
         "parameters": {
@@ -8235,7 +8246,14 @@
           "supportPodcast": false,
           "supportScihub": false
         },
-        "name": "巴哈姆特的創作大廳",
+        "radar": [
+          {
+            "source": [
+              "home.gamer.com.tw/homeindex.php"
+            ]
+          }
+        ],
+        "name": "創作大廳",
         "maintainers": [
           "hoilc",
           "bGZo"
